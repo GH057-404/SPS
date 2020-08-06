@@ -11,8 +11,8 @@ options = ['stone', 'paper', 'scissor']
 count_co = 0
 count_us = 0
 while True:
- print('\n\t\t\tPOINTS\n\n\t\tUser:     {}\n\t\tComputer: {}').format(count_us,count_co)
- x = raw_input("\nEnter your choice: stone(1), paper(2) or scissor(3)?\n")
+ print(('\n\t\t\tPOINTS\n\n\t\tUser:     {}\n\t\tComputer: {}').format(count_us,count_co))
+ x = input("\nEnter your choice: stone(1), paper(2) or scissor(3)?\n")
  y = random.choice(options) 
  if x == '1':
    x = 'stone'
