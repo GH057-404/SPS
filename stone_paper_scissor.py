@@ -1,7 +1,6 @@
 
 from art import *
 import random
-import tabulate 
 pat = text2art('''stone
 paper
 scissor''',"bulbhead")
